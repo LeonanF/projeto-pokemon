@@ -19,6 +19,11 @@ btnAvancar.addEventListener("click", function() {
 
     cartaoAtual++;
     mostrarCartao(cartaoAtual)
+    
+     if(cartaoAtual===2){
+        cartaoAtual=-1;
+    }
+
 
 });
 
